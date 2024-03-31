@@ -42,9 +42,38 @@
 .button-grey {
     background-color: grey;
 }
-@media (max-width:768px) {
+@media (max-width:832px) {
     .calculator {
-        width:100vw;
-        height:100vh;
+        margin-left:200px;
+    }
+}
+@media (max-width:685px) {
+    .calculator {
+        margin-left:100px;
+    }
+}
+@media (max-width:586px) {
+    .calculator {
+        margin-left:50px;
+    }
+}
+@media (max-width:536px) {
+    .calculator {
+        margin-left:30px;
+    }
+}
+@media (max-width:516px) {
+    .calculator {
+        margin-left:20px;
+    }
+}
+@media (max-width:505px) {
+    .calculator {
+        margin-left:10px;
+    }
+}
+@media (max-width:496px) {
+    .calculator {
+        margin-left:0px;
     }
 }
